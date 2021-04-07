@@ -28,9 +28,9 @@ print("Select Your language: ")
 y = input("[+]=====> ")
 
 if y == "1":
-    sinhala()
+    sinhala();
 elif y == "2":
-    english()
+    english();
 else:
     print("වැරදි ඇතුලත් කිරීමකි...!")
     print("invalid number...!")
