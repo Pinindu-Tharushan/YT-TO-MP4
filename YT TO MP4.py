@@ -14,7 +14,7 @@ print('''\007
 \033[1;33m    | |     | |       | | | |__| |  | |  | | |       | |  
 \033[1;32m    |_|     |_|       |_|  \____/   |_|  |_|_|       |_|
 
-\033[1;91mv1.3
+\033[1;91mv1.4
 \033[1;36m =============================================\033[1;m
 \033[1;33m|         BEST YOUTUBE TO MP4 CONVERTER       |
 \033[1;36m =============================================\033[00m''')
@@ -26,6 +26,7 @@ print()
 print("ඔබගේ භාෂාව තෝරන්න: ")
 print("Select Your language: ")
 ya = input("[+]=====> ")
+print()
 
 x = ""
 
@@ -42,6 +43,7 @@ def sinhala():
     print("nano sinhala.txt")
     print()
     print("ඉහත සදහන් ආකාරයට එම පාටය ඔබගේ terminal එකේ type කරන්න.")
+    print()
     
 def english():
     x = input("Video URL Address: ")
@@ -56,6 +58,7 @@ def english():
     print("nano english.txt")
     print()
     print("Type the same color in your terminal as mentioned above.")
+    print()
 
 if ya == "1":
     sinhala();

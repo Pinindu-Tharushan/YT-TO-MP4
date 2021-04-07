@@ -25,3 +25,5 @@ All you have to do is type mv file_name.mp4 / sdcard and name the video where fi
 Type / sdcard here and it will be saved in the internal storage.
 If storage permission is not given to the termux, the video will not come.
 Make a space before / sdcard and after the mv.
+
+Press ctrl + x to exit
