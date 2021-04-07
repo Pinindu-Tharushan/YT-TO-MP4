@@ -1,0 +1,27 @@
+You can follow the steps below to watch your video.
+
+The first termux needs to be allowed to go into the phone's storage.
+Follow these steps together
+
+Go to the setting of your phone
+Go to one of the apps
+Find the termux location and click on it
+Then the permissions in it give permission to your termux
+(This may vary from pon- to termux storage storage permissions)
+
+Next you have to take the video to the phone.
+There are two ways to do this.
+
+====> 1. Copy-
+
+That means taking a copy of the termux to the phone.
+All you have to do is type cp file_name.mp4 / sdcard and name the video where file_name is.
+
+====> 2. move and-
+
+That means taking Kelimma to your device. Then there is no termux.
+All you have to do is type mv file_name.mp4 / sdcard and name the video where file_name is.
+
+Type / sdcard here and it will be saved in the internal storage.
+If storage permission is not given to the termux, the video will not come.
+Make a space before / sdcard and after the mv.
