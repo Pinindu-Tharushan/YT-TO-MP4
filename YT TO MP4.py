@@ -29,15 +29,6 @@ ya = input("[+]=====> ")
 
 x = ""
 
-if ya == "1":
-    sinhala();
-elif ya == "2":
-    english();
-else:
-    print("වැරදි ඇතුලත් කිරීමකි...!")
-    print("invalid number...!")
-    
-
 def sinhala():
     x = input("වීඩියෝවෙහි LINK එක ඇතුලත් කරන්න: ")
     print()
@@ -52,7 +43,6 @@ def sinhala():
     print()
     print("ඉහත සදහන් ආකාරයට එම පාටය ඔබගේ terminal එකේ type කරන්න.")
     
-    
 def english():
     x = input("Video URL Address: ")
     ydl_opts = {}
@@ -66,4 +56,12 @@ def english():
     print("nano english.txt")
     print()
     print("Type the same color in your terminal as mentioned above.")
-    
+
+if ya == "1":
+    sinhala();
+elif ya == "2":
+    english();
+else:
+    print("වැරදි ඇතුලත් කිරීමකි...!")
+    print("invalid number...!")
+      
