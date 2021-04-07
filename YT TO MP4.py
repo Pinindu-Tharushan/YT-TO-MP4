@@ -25,11 +25,13 @@ print("[2] English ")
 print()
 print("ඔබගේ භාෂාව තෝරන්න: ")
 print("Select Your language: ")
-y = input("[+]=====> ")
+ya = input("[+]=====> ")
 
-if y == "1":
+x = ""
+
+if ya == "1":
     sinhala();
-elif y == "2":
+elif ya == "2":
     english();
 else:
     print("වැරදි ඇතුලත් කිරීමකි...!")
@@ -37,7 +39,7 @@ else:
     
 
 def sinhala():
-    x = input("වීඩියෝවෙහි LINK එක ඇතුලත් කරන්න:")
+    x = input("වීඩියෝවෙහි LINK එක ඇතුලත් කරන්න: ")
     print()
     ydl_opts = {}
     with youtube_dl.YoutubeDL(ydl_opts) as ydl:
@@ -52,7 +54,7 @@ def sinhala():
     
     
 def english():
-    x = input("Video URL Address:")
+    x = input("Video URL Address: ")
     ydl_opts = {}
     print()
     with youtube_dl.YoutubeDL(ydl_opts) as ydl:
