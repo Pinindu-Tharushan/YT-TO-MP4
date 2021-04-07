@@ -1,4 +1,4 @@
-# yt-to-mp4
+# YT-TO-MP4
 
 මුලින්ම install.py file එක run කරන්න. පසුව YT TO MP4.py file එක run කරන්න.
 
