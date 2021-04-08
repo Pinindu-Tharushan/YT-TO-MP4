@@ -10,19 +10,19 @@ print('''\007
 \033[1;33m  \ \_/ /   | |       | | | |  | |  | \  / | |__) ||| |_ 
 \033[1;32m   \   /    | |       | | | |  | |  | |\/| |  ___/__   _|
 \033[1;33m    | |     | |       | | | |__| |  | |  | | |      | |  
-\033[1;32m    |_|     |_|       |_|  \____/   |_|  |_|_|      |_|\033[1;91mv1.8
+\033[1;32m    |_|     |_|       |_|  \____/   |_|  |_|_|      |_|\033[5;31m\033[1;91mv1.9
 
 \033[1;36m =============================================\033[1;m
 \033[1;33m|         BEST YOUTUBE TO MP4 CONVERTER       |
 \033[1;36m =============================================\033[00m''')
 
 print()
-print('''echo -e "\e[96m[1] \e[96mසිංහල "''')
-print('''echo -e "\e[96m[2] \e[96mEnglish "''')
+print('''\033[0;36m[1] සිංහල ''')
+print('''\033[0;36m[2] English ''')
 print()
-print("ඔබගේ භාෂාව තෝරන්න: ")
-print("Select Your language: ")
-ya = input('''echo -e "\e[5m[+]=====> "''')
+print("\033[0;35mඔබගේ භාෂාව තෝරන්න: ")
+print("\033[0;35mSelect Your language: ")
+ya = input('''\033[5;31m[+]=====> ''')
 print()
 
 x = ""
@@ -37,7 +37,7 @@ def sinhala():
     print("වීඩියෝ එක ඩවුන්ලෝඩ් වෙලා ඉවරයි....!")
     print("ඒක ඔබේ ඩිවයිස් එකට දාගන්න ඕන නං පහත ක්‍රමය අනුගමනය කරන්න.")
     print()
-    print('''echo -e "\e[44m\e[7mnano \e[44m\e[7msinhala.txt"''')
+    print('''\033[7;31m\033[0;35mnano sinhala.txt''')
     print()
     print("ඉහත සදහන් ආකාරයට එම පාටය ඔබගේ terminal එකේ type කරන්න.")
     print()
@@ -52,7 +52,7 @@ def english():
     print("The video has been downloaded.")
     print("If you want to install it on your device, follow the step below.")
     print()
-    print('''echo -e "\e[44m\e[7mnano \e[44m\e[7menglish.txt"''')
+    print('''\033[7;31m\033[0;35mnano english.txt''')
     print()
     print("Type the same color in your terminal as mentioned above.")
     print()
@@ -62,6 +62,6 @@ if ya == "1":
 elif ya == "2":
     english();
 else:
-    print("වැරදි ඇතුලත් කිරීමකි...!")
-    print("invalid number...!")
+    print('''\033[0;31mවැරදි ඇතුලත් කිරීමකි...!''')
+    print('''\033[0;31minvalid number...!''')
       
