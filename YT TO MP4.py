@@ -17,12 +17,12 @@ print('''\007
 \033[1;36m =============================================\033[00m''')
 
 print()
-print(echo -e '''\e[96m[1] සිංහල ''')
-print(echo -e '''\e[96m[2] English ''')
+print('''echo -e "\e[96m[1] \e[96mසිංහල "''')
+print('''echo -e "\e[96m[2] \e[96mEnglish "''')
 print()
 print("ඔබගේ භාෂාව තෝරන්න: ")
 print("Select Your language: ")
-ya = input(echo -e '''\e[5m[+]=====> ''')
+ya = input('''echo -e "\e[5m[+]=====> "''')
 print()
 
 x = ""
@@ -37,7 +37,7 @@ def sinhala():
     print("වීඩියෝ එක ඩවුන්ලෝඩ් වෙලා ඉවරයි....!")
     print("ඒක ඔබේ ඩිවයිස් එකට දාගන්න ඕන නං පහත ක්‍රමය අනුගමනය කරන්න.")
     print()
-    print(echo -e '''\e[44m\e[7mnano sinhala.txt''')
+    print('''echo -e "\e[44m\e[7mnano \e[44m\e[7msinhala.txt"''')
     print()
     print("ඉහත සදහන් ආකාරයට එම පාටය ඔබගේ terminal එකේ type කරන්න.")
     print()
@@ -52,7 +52,7 @@ def english():
     print("The video has been downloaded.")
     print("If you want to install it on your device, follow the step below.")
     print()
-    print(echo -e '''\e[44m\e[7mnano english.txt''')
+    print('''echo -e "\e[44m\e[7mnano \e[44m\e[7menglish.txt"''')
     print()
     print("Type the same color in your terminal as mentioned above.")
     print()
