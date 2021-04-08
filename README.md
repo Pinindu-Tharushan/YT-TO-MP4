@@ -15,11 +15,19 @@ Both Sinhala and English languages ​​are used for this tool.
 # How to install
 
 $ pkg install python
+
 $ pkg install python2
+
 $ pkg install git
+
 $ git clone https://github.com/Pinindu-Tharushan/yt-to-mp4
+
 $ cd yt-to-mp4
+
 $ ls
+
 $ python install.py
+
 $ ls
+
 $ python 'YT-TO-MP4.py'
