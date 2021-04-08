@@ -20,7 +20,7 @@ $ pkg install python2
 
 $ pkg install git
 
-$ git clone https://github.com/Pinindu-Tharushan/yt-to-mp4
+$ git clone https://github.com/Pinindu-Tharushan/YT-TO-MP4
 
 $ cd yt-to-mp4
 
