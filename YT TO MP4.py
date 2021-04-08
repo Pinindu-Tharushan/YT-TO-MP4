@@ -1,6 +1,8 @@
 from __future__ import unicode_literals
 import youtube_dl
 import os
+# CODE BY PININDU THARUSHAN
+# CODE BY PININDU THARUSHAN
 
 os.system("clear")
 print('''\007
@@ -10,8 +12,8 @@ print('''\007
 \033[1;33m  \ \_/ /   | |       | | | |  | |  | \  / | |__) ||| |_ 
 \033[1;32m   \   /    | |       | | | |  | |  | |\/| |  ___/__   _|
 \033[1;33m    | |     | |       | | | |__| |  | |  | | |      | |  
-\033[1;32m    |_|     |_|       |_|  \____/   |_|  |_|_|      |_|\033[5;31m\033[1;91mv2.0
-
+\033[1;32m    |_|     |_|       |_|  \____/   |_|  |_|_|      |_|\033[5;31mv2.1
+\033[0;36m# CODE BY PININDU THARUSHAN
 \033[1;36m =============================================\033[1;m
 \033[1;33m|         BEST YOUTUBE TO MP4 CONVERTER       |
 \033[1;36m =============================================\033[00m''')
@@ -22,13 +24,13 @@ print('''\033[0;36m[2] English ''')
 print()
 print("\033[0;35mඔබගේ භාෂාව තෝරන්න: ")
 print("\033[0;35mSelect Your language: ")
-ya = input('''\033[5;31m\033[1;31m[+]=====> ''')
+ya = input('''\033[5;31m[+]=====> ''')
 print()
 
 x = ""
 
 def sinhala():
-    x = input("වීඩියෝවෙහි LINK එක ඇතුලත් කරන්න: ")
+    x = input('''\033[0;37mවීඩියෝවෙහි LINK එක ඇතුලත් කරන්න: ''')
     print()
     ydl_opts = {}
     with youtube_dl.YoutubeDL(ydl_opts) as ydl:
