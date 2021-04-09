@@ -14,7 +14,7 @@ Both Sinhala and English languages ​​are used for this tool.
 
 # How to install
 
-$ pkg install python
+'''$ pkg install python
 
 $ pkg install python2
 
@@ -31,3 +31,4 @@ $ python install.py
 $ ls
 
 $ python 'YT TO MP4.py'
+'''
