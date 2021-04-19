@@ -12,7 +12,7 @@ print('''\007
 \033[1;33m  \ \_/ /   | |       | | | |  | |  | \  / | |__) ||| |_ 
 \033[1;32m   \   /    | |       | | | |  | |  | |\/| |  ___/__   _|
 \033[1;33m    | |     | |       | | | |__| |  | |  | | |      | |  
-\033[1;32m    |_|     |_|       |_|  \____/   |_|  |_|_|      |_|\033[5;31mv2.2
+\033[1;32m    |_|     |_|       |_|  \____/   |_|  |_|_|      |_|\033[5;31mv2.4
 \033[0;36m# CODE BY PININDU THARUSHAN
 \033[1;36m =============================================\033[1;m
 \033[1;33m|         BEST YOUTUBE TO MP4 CONVERTER       |
@@ -21,15 +21,18 @@ print('''\007
 print()
 print('''\033[0;36m[1] සිංහල ''')
 print('''\033[0;36m[2] English ''')
+print('''\033[0;36m[3] Any Problem. Contact Me''')
+print('''\033[0;36m[4] Exit ''')
 print()
-print("\033[0;35mඔබගේ භාෂාව තෝරන්න: ")
-print("\033[0;35mSelect Your language: ")
+print("\033[0;35mඔබගේ භාෂාව හෝ වෙනත් දෙයක් තෝරන්න: ")
+print("\033[0;35mSelect Your language Or Other: ")
 ya = input('''\033[0;37m[+]=====> ''')
 print()
 
 x = ""
 
 def sinhala():
+    print("ctrl + c to Exit")
     x = input('''\033[0;37mවීඩියෝවෙහි LINK එක ඇතුලත් කරන්න: ''')
     print()
     ydl_opts = {}
@@ -45,6 +48,7 @@ def sinhala():
     print()
     
 def english():
+    print("ctrl + c to Exit")
     x = input("Video URL Address: ")
     ydl_opts = {}
     print()
@@ -63,6 +67,10 @@ if ya == "1":
     sinhala();
 elif ya == "2":
     english();
+elif ya == "3":
+    print("xdg-open https://wa.me/+94702801713")
+elif ya == "4":
+    print("exit")
 else:
     print('''\033[0;31mවැරදි ඇතුලත් කිරීමකි...!''')
     print('''\033[0;31minvalid number...!''')
