@@ -24,11 +24,7 @@ $ git clone https://github.com/Pinindu-Tharushan/YT-TO-MP4
 
 $ cd YT-TO-MP4
 
-$ ls
-
 $ python install.py
 
-$ ls
-
-$ python 'YT TO MP4.py'
+$ python YT-TO-MP4.py
 
